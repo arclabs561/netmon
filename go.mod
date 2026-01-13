@@ -1,4 +1,4 @@
-module github.com/henrywallace/netwatch
+module github.com/arclabs561/netmon
 
 go 1.15
 
