@@ -11,12 +11,12 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/henrywallace/netwatch/util"
-	"github.com/henrywallace/netwatch/watch"
+	"github.com/arclabs561/netmon/util"
+	"github.com/arclabs561/netmon/watch"
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "netwatch",
+	Use:   "netmon",
 	Short: "Watch for activity on a LAN",
 	RunE:  main,
 }
