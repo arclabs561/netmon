@@ -1,6 +1,6 @@
 package main
 
-import "github.com/henrywallace/netwatch/cmd"
+import "github.com/arclabs561/netmon/cmd"
 
 func main() {
 	cmd.Execute()
