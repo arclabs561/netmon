@@ -10,7 +10,7 @@
   [triggers.log]
     onEventsExcept = ["host.touch", "port.touch"]
     doBuiltin = "log"
-  [triggeres.example]
+  [triggers.example]
     disabled = true
     onEvents = ["host.new"]
     doShell = "echo Hello {{.Host.IPv4}} - $(date)"
